@@ -12,6 +12,9 @@ h1 {
 
 
 }
+a.navlinks {
+    color: hotpurple;
+}
 
 h2 {
     border-bottom-style: groove;
@@ -76,6 +79,8 @@ p {
     padding-left: 100px;
     margin-left: 130px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 280px;
+    word-wrap: break-word;
 
 }
 
@@ -102,28 +107,31 @@ footer {
     width: 50%;
 }
 
-
+.portfolio-card-container {
+    padding-top: 20px;
+    padding-left: 20px;
+}
 
 .portfolio-item-card img {
-    width: 60%;
+    width: 250px;
+    /* width: 60%;
     padding: 20%;
     height: 100px;
     padding-top: 5%;
     padding-bottom: 1%;
 
-
+ */
 
 }
 
-div.portfolio-item-card {
+.portfolio-item-card {
     display: inline-block;
     margin: 5px;
-    width: 40%;
-    min-width: 200px;
-    margin-bottom: -4%;
+    width: 300px;
+    margin-bottom: 0;
 }
 
-div#one {
+/* #one {
     padding-left: 0%;
     margin-bottom: -4%;
 
@@ -131,7 +139,7 @@ div#one {
 
 }
 
-div#two {
+#two {
     padding: 2%;
     margin-left: -1%;
     margin-right: 20%;
@@ -141,12 +149,12 @@ div#three.portfolio-item-card {
     padding-left: 0%;
     margin-bottom: -4%;
     margin-top: -4%;
-}
+} 
 
 div#four.portfolio-item-card {
     padding-left: 5%;
     margin-left: -16%;
-}
+} */
 
 
 h2.outset {
